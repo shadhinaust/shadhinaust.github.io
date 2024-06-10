@@ -1,0 +1,10 @@
+Large Language Model (LLM)
+==========================
+
+We have included GPT 3.5 and GPT 4.0 LLM model and Jupyter Notebook. User can ask to generate different types of plots similar to ChatGPT app those does not available by default in Robin. To enable AI assistant, users need to provide api key and select a model name specific to the provided api key and see the ai generated results in the top right corner.
+   * Users can generate plots with their own interest which is not provided by default in Robin using their uploaded dataset. 
+   * User can edit the AI generated code using integrated Jupyter Notebook. 
+   
+   .. video:: ./_static/video/ai.mp4
+        :autoplay:
+        :width: 640
