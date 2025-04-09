@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chowdhury's Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+
+    .header-title {
+      font-size: 24px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 15px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      height: calc(100vh - 60px);
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .social-links a {
+      margin: 5px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .main {
+      flex: 1;
+      padding: 20px;
+      overflow-y: scroll;
+      background-color: #fff;
+    }
+
+    .main p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-title">H. M. A. Mohit <b><i>Chowdhury</i></b></div>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">Publications</a>
+      <a href="cv.html">CV</a>
+      <a href="#">Contact</a>
+      <a href="#">Blog</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <img src="https://via.placeholder.com/100" alt="Profile Picture" class="profile-pic">
+      <div class="social-links">
+        <a href="#" title="Twitter">🐦</a>
+        <a href="https://www.linkedin.com/in/h-m-a-mohit-chowdhury/" title="LinkedIn">💼</a>
+        <a href="https://github.com/hmamohit" title="GitHub">🐙</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>H M A Mohit Chowdhury</h1>
+    <p>
+        <strong>Contact:</strong> +1 (719) 412-4139<br>
+        <strong>Email:</strong> hmamohit@gmail.com<br>
+        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/h-m-a-mohit-chowdhury">linkedin.com/in/h-m-a-mohit-chowdhury</a><br>
+        <strong>GitHub:</strong> <a href="https://github.com/shadhinaust">github.com/shadhinaust</a>
+    </p>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>Ph.D. student in Computer Science with a research focus on bioinformatics, particularly genomics using Machine Learning and Computer Vision. Experienced in ML, CV, data analysis, and computational biology. Proficient in Python, TensorFlow, PyTorch, and AWS. Published five peer-reviewed research articles in genome analysis. Previously worked as a software engineer for five years using Java, Spring, C#, .NET, SQL, AWS, Docker, and Linux.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>Ph.D. in Computer Science, University of Colorado Colorado Springs, GPA: 3.867 (2022–Present)</li>
+            <li>M.Sc. in Computer Science, University of Colorado Colorado Springs, GPA: 3.867 (2024)</li>
+            <li>B.Sc. in CSE, Ahsanullah University of Science and Technology, GPA: 3.71 (2017)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Python, Java, C#, C, JavaScript</li>
+            <li><strong>Frameworks:</strong> TensorFlow, PyTorch, cu (RAPIDS API), Spring, .NET</li>
+            <li><strong>Databases:</strong> MySQL, MSSQL</li>
+            <li><strong>Tools:</strong> AWS, Docker, Terraform, Git</li>
+            <li><strong>Operating Systems:</strong> Linux, Windows, MacOS</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+
+        <h3>Bioinformatics Lab Graduate Research Assistant</h3>
+        <p><em>2022 – Present</em></p>
+        <ul>
+            <li>Developing models for chromatin loop/TAD prediction and DNA sequence modeling using DNNs, GNNs, and ML.</li>
+            <li>Analyzing 3D genome organization using Hi-C data.</li>
+            <li>Supporting server maintenance and collaborating on various projects.</li>
+        </ul>
+
+        <h3>Otto International – Solution Developer</h3>
+        <p><em>2022</em></p>
+        <ul>
+            <li>Revamped deployment infrastructure using AWS, Terraform, and Jenkins.</li>
+            <li>Redesigned Enterprise Service Bus architecture using Java and Micronaut.</li>
+        </ul>
+
+        <h3>Dovetail Technology – Software Engineer</h3>
+        <p><em>2020 – 2022</em></p>
+        <ul>
+            <li>Developed Volmet system for Changi Airport with C#, .NET, MSSQL.</li>
+            <li>Handled IIS deployment and windows service configuration.</li>
+        </ul>
+
+        <h3>IdeaScale Bangladesh – Software Engineer</h3>
+        <p><em>2019 – 2020</em></p>
+        <ul>
+            <li>Enhanced features using Java, Spring, MySQL, and Docker.</li>
+            <li>Optimized raw SQL queries using JPA and Querydsl.</li>
+        </ul>
+
+        <h3>Netweaver Software Limited – Software Engineer</h3>
+        <p><em>2017 – 2019</em></p>
+        <ul>
+            <li>Built woobiedesk.com and amargriho.com using Java/SpringBoot.</li>
+            <li>Developed doctor.ne.jp with Node.js, Vue.js, PostgreSQL.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        <ul>
+            <li>"CNNSplice", CSBJ 2023. <a href="https://doi.org/10.1016/j.csbj.2023.05.031">doi:10.1016/j.csbj.2023.05.031</a></li>
+            <li>"ScHiCAtt", CSBJ 2024. <a href="https://doi.org/10.1016/j.csbj.2025.02.031">doi:10.1016/j.csbj.2025.02.031</a></li>
+            <li>"HiCForecast", Bioinformatics 2024. <a href="https://doi.org/10.1093/bioinformatics/btaf030">doi:10.1093/bioinformatics/btaf030</a></li>
+            <li>"coiTAD", Genes 2024. <a href="https://doi.org/10.3390/genes15101293">doi:10.3390/genes15101293</a></li>
+            <li>"Comparative study on chromatin loop callers", BMC Bioinformatics 2024. <a href="https://doi.org/10.1186/s12859-024-05713-w">doi:10.1186/s12859-024-05713-w</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Activities</h2>
+        <ul>
+            <li>President, Bangladeshi Student Association at UCCS (2024–2025)</li>
+            <li>Session Chair & Technical Assistant, NSF REU 2023</li>
+            <li>Participant, Cool Science Festival (2022–2024)</li>
+            <li>Open House Participant 2025</li>
+            <li>Organizer, Cumilla Victoria College Reunion 2016</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Awards</h2>
+        <ul>
+            <li>UCCS Graduate School Travel Award (RECOMB 2024)</li>
+            <li>UCCS Tuition Matching Grant Award (2022–2024)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certificates</h2>
+        <ul>
+            <li>Tableau Fundamentals</li>
+            <li>Responsible Conduct of Research (RCR-mini)</li>
+        </ul>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
