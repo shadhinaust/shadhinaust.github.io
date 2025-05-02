@@ -22,7 +22,7 @@ repository               : "hmamohit/hmamohit.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "chowdhury.png"
+  avatar           : "chowdhury.jpg"
   name             : "Chowdhury"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in computer science at UCCS, employing computer vision and other machine learning algorithms to solve genomics challenges."
