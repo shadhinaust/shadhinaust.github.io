@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "H M A Mohit Chowdhury"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
