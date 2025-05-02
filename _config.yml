@@ -22,12 +22,12 @@ repository               : "hmamohit/hmamohit.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "chowdhury.png"
   name             : "Chowdhury"
   pronouns         : # example: "she/her"  
-  bio              : "CS PhD student at UCCS, solving genomics problems using computer vision and other ml algorithms."
-  location         : "Colorado Springs, Colorado"
-  employer         : "Bioinformatics Lab, UCCS"
+  bio              : "PhD student in computer science at UCCS, employing computer vision and other machine learning algorithms to solve genomics challenges."
+  location         : "Colorado Springs"
+  employer         : "Bioinformatics Lab"
   uri              : https://hmamohit.github.io
   email            : "hmamohit@gmail.com" 
 
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "h-m-a-mohit-chowdhury"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
